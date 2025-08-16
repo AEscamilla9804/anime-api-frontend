@@ -7,7 +7,7 @@ const ListResults = () => {
   const { results, loading } = useResults();
 
   return (
-    <div id="results" className="flex flex-col gap-5 w-[90%] md:w-full md:flex-row md:flex-wrap md:justify-center md:items-center">
+    <div id="results" className="flex flex-col gap-5 w-full md:flex-row md:flex-wrap md:justify-center md:items-center">
       { loading ? (
         <Spinner />
       ) : results.length > 0 ? (

@@ -161,7 +161,7 @@ const Signup = () => {
               className="font-semibold text-lg cursor-pointer w-full rounded-sm py-1 mt-3 text-white bg-cyan-800 hover:bg-cyan-700"
           />
 
-          <nav className="flex justify-between">
+          <nav className="flex flex-col items-center gap-3 mt-2 md:mt-0 md:flex-row md:justify-between">
               <Link 
                   to="/openid"
                   className="text-cyan-900 hover:text-cyan-700"

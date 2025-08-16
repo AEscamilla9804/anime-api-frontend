@@ -33,7 +33,7 @@ const Pagination = ({ section }) => {
             buttons.push(
                 <button
                     key={i}
-                    className={`flex items-center justify-center rounded-full cursor-pointer bg-cyan-100 border text-cyan-700 font-bold text-sm w-8 h-8 md:text-normal md:w-10 md:h-10 hover:bg-sky-300 ${i === page ? "bg-sky-300" : ""}`}
+                    className={`flex items-center justify-center rounded-full cursor-pointer bg-cyan-100 border text-cyan-700 font-bold text-sm w-7 h-7 md:w-8 md:w-8 md:text-normal md:w-10 md:h-10 hover:bg-sky-300 ${i === page ? "bg-sky-300" : ""}`}
                     onClick={() => {
                         setPage(i);
                         window.scrollTo({ top: 90, behavior: "smooth" });
@@ -47,7 +47,7 @@ const Pagination = ({ section }) => {
 
   return (
     <div id="pagination" className="flex flex-col items-center gap-8 my-5 w-full">
-        <div className="flex flex-wrap gap-3 md:gap-5">
+        <div className="flex flex-wrap gap-2 md:gap-3 md:gap-5">
             {createPagination()}
         </div>
 

@@ -10,7 +10,7 @@ const ModalView = ({ section, setAlert }) => {
     >
         <div 
             id="modal-container"
-            className="m-auto w-[80%] md:w-3/4 max-w-[700px] max-h-[90%] bg-gray-200 rounded-[1rem] p-[2rem] flex flex-col gap-[1rem]"
+            className="m-auto w-[90%] md:w-3/4 max-w-[700px] max-h-[90%] bg-gray-200 rounded-[1rem] p-[2rem] flex flex-col gap-[1rem]"
         >
             <ModalHeader />
             <ModalBody />

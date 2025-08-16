@@ -15,7 +15,7 @@ const Filters = () => {
     }
 
   return (
-    <div className="flex w-full items-center justify-center px-5 gap-8 md:justify-center md:gap-20">
+    <div className="flex w-full items-center justify-center px-5 gap-5 md:justify-center md:gap-20">
         <div className="flex flex-col gap-1">
             <label htmlFor="type" className="font-semibold">Type</label>
             <select 

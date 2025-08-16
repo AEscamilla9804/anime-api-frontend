@@ -40,7 +40,7 @@ const ModalFooter = ({ section, setAlert }) => {
         )}
 
         <button
-            className="w-1/2 bg-cyan-700 rounded-md cursor-pointer py-2 text-gray-200 text-lg font-bold hover:bg-cyan-600"
+            className="w-1/2 bg-cyan-700 rounded-md cursor-pointer py-2 text-gray-200 md:text-lg font-bold hover:bg-cyan-600"
             onClick={() => resetModal()}
         >
             Close

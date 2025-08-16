@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <>
-        <nav className="flex items-center gap-5">
+        <nav className="flex items-center gap-3">
             <Link
                 to="/"
             >

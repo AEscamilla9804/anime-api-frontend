@@ -43,7 +43,7 @@ const FavoriteBtn = ({ anime, section, setAlert }) => {
     <>
         <button
             onClick={() => handleFavoriteAction(isFavorite ? 'remove' : 'add')}
-            className="w-1/2 rounded-md py-2 text-lg font-bold bg-cyan-700 text-gray-200 cursor-pointer hover:bg-cyan-600"
+            className="w-1/2 rounded-md py-2 md:text-lg font-bold bg-cyan-700 text-gray-200 cursor-pointer hover:bg-cyan-600"
         >
             {isFavorite ? "Eliminate from Favorites" : "Add to Favorites"}
         </button>
